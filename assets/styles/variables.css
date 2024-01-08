@@ -1,0 +1,23 @@
+:root {
+  /* Colors */
+  --primary: #3A85F4;
+  --warning: #FDFFE7;
+  --success: #EBFFFA;
+  --dark: #2F2F2F;
+  --light: #FFFFFF;
+  --secondary: #F3F3F3;
+
+  /* Text colors */
+  --text-warning: #BC9300;
+  --text-success: #00A880;
+  --text-secondary: #505050;
+  
+  /* Button */
+  --disabled-btn: #D9D9D9;
+
+  /* Title sizes */
+  --h1: 50px;
+  --h2: 40px;
+
+  --black:#262628;
+}

@@ -1,0 +1,38 @@
+footer{
+    display: flex;
+    padding-top: 43px;
+    padding-bottom: 23px;
+    background: var(--black);
+} 
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-text{
+    display: flex;
+    flex-direction: row;
+    gap: 67px;
+}
+.icon-footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 471px;
+    gap: 29px;
+}
+.footer-text{
+    color: var(--light);
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+#tg{
+    cursor: pointer;
+}
+#inst{
+    cursor: pointer;
+}
+#fb{
+    cursor: pointer;
+}

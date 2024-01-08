@@ -1,0 +1,62 @@
+header{
+    padding:20px 0px;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+.header-btn{
+    display: flex;
+    align-items: center;
+    flex-shrink: 2;
+    gap: 24px;  
+}
+nav{
+    display: flex;
+    gap: 55px;
+}
+.link-item{
+    color: var(--text-secondary);
+    font-family: 'Graphik LCG', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.header-btn{
+    display: flex;
+    /* flex-basis: 600; */
+    /* gap: 40px; */
+}
+.rectangle{
+    color: var(--primary);
+    text-align: center;
+    font-family: 'Graphik LCG', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    border-radius: 123px;
+    border: 1px solid #3A85F4;
+    padding: 12px 33px 10px 34px;
+    transition:all .2s ease-in-out;
+    cursor: pointer;
+}
+.rectangle:hover {
+    color: var(--light);
+    border: 1px solid #3A85F4;
+    background:var(--primary) ;
+}
+/* ID */
+#earth{
+    cursor: pointer;
+}
+#exit{
+    cursor: pointer;
+}
+/* ======== */

@@ -1,0 +1,55 @@
+/* Buttons */
+.btn-join-text{
+  color: var(--light);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  padding: 15px 44px;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+.btn-join-text:hover{
+  color: var(--primary);
+  background: var(--light);
+}
+.btn-join{
+  display: inline-block;
+  margin-top: 33px;
+  border-radius: 123px;
+  background: var(--primary);
+}
+/* Buttons */
+.btn-wath{
+  padding: 15px 64px;
+  border-radius: 123px;
+  border: 2px solid var(--primary);
+  cursor: pointer;
+}
+/* How to work block */
+.htw-block {
+  padding: 50px;
+  background: var(--light);
+  box-shadow: 0px 3px 17px 0px #2B7BD30F;
+}
+/* How to work block */
+
+/* Category */
+.category {
+  padding: 10px 15px;
+  max-width: 128px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.category-warning {
+
+}
+
+.category-success {
+
+}
+/* Category */
